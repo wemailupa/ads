@@ -107,7 +107,7 @@ main{
     background-color: rgba(255,255,255,0.3);
     height:50%;
     width: 50%;
-    left:-260px;
+    left:-560px;
     transform: skewX(-30deg);
 }
 .ad-2>:hover:before{
@@ -115,7 +115,7 @@ main{
 }
 @keyframes slide{
     0%,100%{
-        left: -260px;
+        left: -560px;
     }
     50%{
         left:100%;
@@ -124,7 +124,7 @@ main{
 
 @-webkit-keyframes slide{
     0%,100%{
-        left: -260px;
+        left: -560px;
     }
     50%{
         left:100%;
