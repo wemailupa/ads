@@ -99,17 +99,9 @@ main{
     height: 100%;
     object-fit: cover;
     box-shadow: 10px 10px 30px rgba(138, 3, 248, 0.1);
+    transform: rotateY(90deg);
     
 }
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 550px){
     main{
