@@ -51,6 +51,8 @@ main{
     
 }
 .ad-1a, .ad-1b{
+    width:100%;
+    height: 100%;
     backface-visibility: hidden;
 }
 
