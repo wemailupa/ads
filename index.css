@@ -15,7 +15,7 @@ main{
 .ad-0{
     width: 200px;
     height: 200px;
-    object-fit: cover;
+    /*object-fit: cover;*/
     box-shadow: 10px 10px 30px rgba(138, 3, 248, 0.1);
     position:absolute;
     -webkit-animation: slide 5s linear 0s 3;
