@@ -30,7 +30,7 @@ main{
     
 }
 
-.ad-1a>img{
+.ad-1a>img:hover{
     transform: skewX(-30deg);
     animation: slide 1s;
 }
