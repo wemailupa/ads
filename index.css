@@ -24,7 +24,7 @@ main{
     animation-timing-function: linear;
     
 }
-
+/*
 @-webkit-keyframes slide{
   0%{
       -webkit-transform: translate(150px, 0px);
@@ -80,7 +80,7 @@ main{
       transform: translate(1200px, 0px);;
     }
 }
-
+*/
 .ad-1a>img, .ad-1b>img{
 
     
@@ -113,6 +113,15 @@ main{
 .ad-2>img:hover:before{
     animation: slide 1s;
 }
+@keyframes slide{
+    0%,100%{
+        left: -80px;
+    }
+    50%{
+        left:100%;
+    }
+}
+
 @keyframes slide{
     0%,100%{
         left: -80px;
