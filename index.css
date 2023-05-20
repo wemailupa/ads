@@ -3,12 +3,12 @@ div{
 }
 
 main{
-    cursor: pointer;
+  
     padding: 10em;
     display: grid;
     grid-gap: 20px 20px; 
     grid-template-columns: repeat(auto-fit, minmax(275px, 1fr)); 
-    perspective: 500px;
+  
 }
 
 
@@ -20,11 +20,20 @@ main{
 }
 
 .flip-card {
-    perspective:1000px;
-    transition: transform 0.8s;
-    transform: rotateY(180deg);
-    backface-visibility: hidden;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+   
  }
+ .flip-card-inner{
+      width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
 
 .ad-1a>img, .ad-1b>img{
 
@@ -33,22 +42,23 @@ main{
     height: 100%;
     object-fit: cover;
     box-shadow: 10px 10px 30px rgba(138, 3, 248, 0.1);
-    backface-visibility: hidden;
+
     
 }
+.ad-1a, .ad-1b{
+    backface-visibility: hidden;
+}
 
-.ad-1a>img{
+.ad-1a{
     background-color: green;
     color: black;
  }
  
- .ad-1b>img{
+ .ad-1b{
      background-color: yellow;
      color:white;
      transform: rotateY(180deg);
   }
-
-
 
 .ad-2>img{
 
