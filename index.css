@@ -30,6 +30,13 @@ main{
     
 }
 
+.ad-1a>img{
+    transform: skewX(-30deg);
+    animation: slide 1s;
+}
+
+
+
 .ad-2>img{
 
     width: 100%;
