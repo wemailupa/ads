@@ -24,7 +24,7 @@ main{
   width: auto-fit;
   height: auto-fit;
   border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 500px; /* Remove this if you don't want the 3D effect */
    
  }
 
