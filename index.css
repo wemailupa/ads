@@ -7,6 +7,7 @@ main{
     display: grid;
     grid-gap: 20px 20px; 
     grid-template-columns: repeat(auto-fit, minmax(275px, 1fr)); 
+    perspective: 500px;
 }
 
 .ad-0{
@@ -99,8 +100,9 @@ main{
     height: 100%;
     object-fit: cover;
     box-shadow: 10px 10px 30px rgba(138, 3, 248, 0.1);
+    transition: 4000ms transform ease-in-out
     transform: rotateY(90deg);
-    
+    transform-origin: left;
 }
 
 @media (max-width: 550px){
