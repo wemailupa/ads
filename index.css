@@ -100,7 +100,7 @@ main{
     height: 100%;
     object-fit: cover;
     box-shadow: 10px 10px 30px rgba(138, 3, 248, 0.1);
-    transition: 4000ms transform ease-in-out
+    transition: 400ms transform ease-in-out;
     transform: rotateY(90deg);
     transform-origin: left;
 }
