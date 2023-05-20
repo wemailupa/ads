@@ -28,16 +28,29 @@ main{
 
 
 
-.ad-1>img{
+.ad-1a>img, .ad-1b>img{
 
    
     width: 100%;
     height: 100%;
     object-fit: cover;
     box-shadow: 10px 10px 30px rgba(138, 3, 248, 0.1);
-
-     
+    backface-visibility: hidden;
+    
 }
+
+.ad-1a>img{
+    background-color: green;
+    color: black;
+ }
+ 
+ .ad-1b>img{
+     background-color: yellow;
+     color:white;
+     transform: rotateY(180deg);
+  }
+
+
 
 .ad-2>img{
 
