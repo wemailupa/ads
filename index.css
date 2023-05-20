@@ -18,10 +18,10 @@ main{
    
     -webkit-animation-name: slide;
     animation-name: slide;
-    -webkit-animation-duration: 5s;
-    animation-duration; 5s;
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
+    -webkit-animation-duration: 50s;
+    animation-duration; 50s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
     
 }
 
