@@ -27,37 +27,57 @@ main{
 
 @-webkit-keyframes slide{
   0%{
-      left:0;
+      -webkit-transform: translate(150px, 0px);
+      -ms-transform: translate(150px, 0px);
+      transform: translate(150px, 0px);
     }
   25%{
-      left:150px;
+     -webkit-transform: translate(300px, 0px);
+      -ms-transform: translate(300px, 0px);
+      transform: translate(300px, 0px);
     }
   50%{
-      left:350px;
+     -webkit-transform: translate(450px, 0px);
+      -ms-transform: translate(450px, 0px);
+      transform: translate(450px, 0px);
     }
   75%{
-      left: 550px;
+      -webkit-transform: translate(600px, 0px);
+      -ms-transform: translate(600px, 0px);
+      transform: translate(600px, 0px);
     }
     100%{
-      left: 1200px;
+      -webkit-transform: translate(600px, 0px);
+      -ms-transform: translate(600px, 0px);
+      transform: translate(600px, 0px);;
     }
 }
 
 @keyframes slide{
      0%{
-      left:0;
+      -webkit-transform: translate(150px, 0px);
+      -ms-transform: translate(150px, 0px);
+      transform: translate(150px, 0px);
     }
   25%{
-      left:150px;
+     -webkit-transform: translate(300px, 0px);
+      -ms-transform: translate(300px, 0px);
+      transform: translate(300px, 0px);
     }
   50%{
-      left:350px;
+     -webkit-transform: translate(450px, 0px);
+      -ms-transform: translate(450px, 0px);
+      transform: translate(450px, 0px);
     }
   75%{
-      left: 550px;
+      -webkit-transform: translate(600px, 0px);
+      -ms-transform: translate(600px, 0px);
+      transform: translate(600px, 0px);
     }
     100%{
-      left: 1200px;
+      -webkit-transform: translate(600px, 0px);
+      -ms-transform: translate(600px, 0px);
+      transform: translate(600px, 0px);;
     }
 }
 
