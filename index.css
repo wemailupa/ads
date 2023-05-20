@@ -17,6 +17,61 @@ main{
     height: 100%;
     object-fit: cover;
     box-shadow: 10px 10px 30px rgba(138, 3, 248, 0.1);
+    animation: slide 5s linear 0s 3;
+}
+
+@-webkit-keyframes slide{
+    0%{
+        left: 0;
+
+    }
+    20%{
+        left: 100px;
+
+    }
+    40%{
+        left: 200px;
+
+    }
+    60%{
+        left: 300px;
+
+    }
+    80%{
+        400px;
+
+    }
+    100%{
+        1200px;
+
+    }
+}
+
+@keyframes slide{
+    0%{
+        left: 0;
+
+    }
+    20%{
+        left: 100px;
+
+    }
+    40%{
+        left: 200px;
+
+    }
+    60%{
+        left: 300px;
+
+    }
+    80%{
+        left:400px;
+
+    }
+    100%{
+        left: 1200px;
+
+    }
 }
 
 .ad-1a>img, .ad-1b>img{
