@@ -6,7 +6,7 @@ main{
   
     padding: 10em;
     display: grid;
-    grid-gap: 5px 5px; 
+    grid-gap: 0px 0px; 
     grid-template-columns: repeat(auto-fit, minmax(275px, 1fr)); 
     -webkit-animation: slide 5s linear 0s 3;
     animation: slide 5s linear 0s 3;
