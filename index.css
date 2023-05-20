@@ -101,6 +101,26 @@ main{
     box-shadow: 10px 10px 30px rgba(138, 3, 248, 0.1);
     
 }
+.ad-2>img::before{
+    position: absolute;
+    background-color: rgba(255,255,255,0.3);
+    height:100%;
+    width: 100%;
+    border-radius: 50%;
+    left:-80px;
+    transform: skewX(-30deg);
+}
+.ad-2>img:hover:before{
+    animation: slide 1s;
+}
+@keyframes slide{
+    0%,100%{
+        left: -80px;
+    }
+    50%{
+        left:100%;
+    }
+}
 
 .ad-3>img{
 
