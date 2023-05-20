@@ -17,7 +17,7 @@ main{
     height: 100%;
    
      -webkit-animation: slide 5s linear 3s 3;
-animation: slide 5s linear 0s 3;
+animation: slide 5s linear 3s 3;
     
 }
 
