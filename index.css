@@ -11,13 +11,6 @@ main{
     perspective: 500px;
 }
 
-.flip-card {
-    perspective:1000px;
-    transition: transform 0.8s;
-    transform: rotateY(180deg);
-    backface-visibility: hidden;
- }
-
 
 .ad-0{
     width: 100%;
@@ -26,7 +19,12 @@ main{
     box-shadow: 10px 10px 30px rgba(138, 3, 248, 0.1);
 }
 
-
+.flip-card {
+    perspective:1000px;
+    transition: transform 0.8s;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+ }
 
 .ad-1a>img, .ad-1b>img{
 
