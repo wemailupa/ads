@@ -22,18 +22,38 @@ main{
 }
 
 @-webkit-keyframes slide{
-    to{
-       -webkit-transform: translate(600px, 0px);
-       -ms-transform: translate(600px, 0px);
-       transform: translate(600px, 0px);
+  0%{
+      left:0;
+    }
+  25%{
+      left:150px;
+    }
+  50%{
+      left:350px;
+    }
+  75%{
+      left: 550px;
+    }
+    100%{
+      left: 1200px;
     }
 }
 
 @keyframes slide{
-    to{
-       -webkit-transform: translate(600px, 0px);
-       -ms-transform: translate(600px, 0px);
-       transform: translate(600px, 0px);
+     0%{
+      left:0;
+    }
+  25%{
+      left:150px;
+    }
+  50%{
+      left:350px;
+    }
+  75%{
+      left: 550px;
+    }
+    100%{
+      left: 1200px;
     }
 }
 
