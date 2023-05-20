@@ -16,8 +16,8 @@ main{
     width: 200px;
     height: 200px;
    
-     -webkit-animation: slide 5s linear 3;
-    animation: slide 5s linear 3;
+     -webkit-animation-name: slide;
+    animation-name: slide;
     
 }
 
