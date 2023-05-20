@@ -102,12 +102,12 @@ main{
     
 }
 .ad-2>img::before{
+    content: '';
     position: absolute;
     background-color: rgba(255,255,255,0.3);
     height:100%;
     width: 100%;
-    border-radius: 50%;
-    left:-80px;
+    left:-260px;
     transform: skewX(-30deg);
 }
 .ad-2>img:hover:before{
@@ -115,16 +115,16 @@ main{
 }
 @keyframes slide{
     0%,100%{
-        left: -80px;
+        left: -260px;
     }
     50%{
         left:100%;
     }
 }
 
-@keyframes slide{
+@-webkit-keyframes slide{
     0%,100%{
-        left: -80px;
+        left: -260px;
     }
     50%{
         left:100%;
