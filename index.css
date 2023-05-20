@@ -16,6 +16,7 @@ main{
 .ad-0{
     width: 100px;
     height: 100px;
+    position: absolute;
      -webkit-animation: slide 5s linear 0s 3;
     animation: slide 5s linear 0s 3;
     
