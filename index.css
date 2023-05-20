@@ -47,9 +47,9 @@ main{
       transform: translate(600px, 0px);
     }
     100%{
-      -webkit-transform: translate(600px, 0px);
-      -ms-transform: translate(600px, 0px);
-      transform: translate(600px, 0px);;
+      -webkit-transform: translate(1200px, 0px);
+      -ms-transform: translate(1200px, 0px);
+      transform: translate(1200px, 0px);;
     }
 }
 
@@ -75,9 +75,9 @@ main{
       transform: translate(600px, 0px);
     }
     100%{
-      -webkit-transform: translate(600px, 0px);
-      -ms-transform: translate(600px, 0px);
-      transform: translate(600px, 0px);;
+      -webkit-transform: translate(1200px, 0px);
+      -ms-transform: translate(1200px, 0px);
+      transform: translate(1200px, 0px);;
     }
 }
 
