@@ -18,6 +18,8 @@ main{
    
      -webkit-animation-name: slide;
     animation-name: slide;
+    -webkit-animation-iteration-count: 10;
+    animation-iteration-count: 10;
     
 }
 
