@@ -17,6 +17,8 @@ main{
     height: 100%;
     object-fit: cover;
     box-shadow: 10px 10px 30px rgba(138, 3, 248, 0.1);
+    position:absolute;
+    -webkit-animation: slide 5s linear 0s 3;
     animation: slide 5s linear 0s 3;
     
 }
@@ -86,13 +88,6 @@ main{
 
     
 }
-
-.ad-1a>img:hover{
-    transform: skewX(-30deg);
-    animation: slide 1s;
-}
-
-
 
 .ad-2>img{
 
