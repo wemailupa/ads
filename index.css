@@ -17,6 +17,7 @@ main{
     height: 100%;
     object-fit: cover;
     box-shadow: 10px 10px 30px rgba(138, 3, 248, 0.1);
+    animation: slide 5s linear 0s 3;
     
 }
 
@@ -81,7 +82,7 @@ main{
     height: 100%;
     /*object-fit: cover;*/
     box-shadow: 10px 10px 30px rgba(138, 3, 248, 0.1);
-    animation: slide 5s linear 0s 3;
+    
 
     
 }
