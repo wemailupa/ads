@@ -15,7 +15,10 @@ main{
     font-size: 60px;
     text-align: center;
 }
-    
+
+    video::-webkit-media-controls-start-playback-button {
+    display: none;
+}
     
     
 .ad-0{
