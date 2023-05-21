@@ -11,9 +11,9 @@ main{
    
 } 
 .title{
-    display: flex;
+   
     font-size: 200px;
-    justify-content: center;
+    text-align: center;
 }
     
     
